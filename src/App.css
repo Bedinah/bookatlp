@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+   background-color: whitesmoke;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+   padding-top: 2rem;
+   margin-bottom: 3rem;
+   padding-left: 1rem;
+   font-weight: 600;
+   font-size: 2rem;
+   color: black;
 }
+.navigation{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    align-items: center;
+    padding-bottom: 4rem;
+    
+      }
+.nav-links{ 
+    color: white;
+    background-color:rgb(235, 171, 171);
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    
+    
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
